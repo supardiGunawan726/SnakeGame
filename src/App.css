@@ -42,7 +42,8 @@
   bottom: calc(100% + 24px);
   transform: translateX(-50%);
   font-family: Arial, Helvetica, sans-serif;
-  white-space: nowrap;
+  white-space: pre-wrap;
+  width: 100%;
 }
 
 .mobile-control {
@@ -85,7 +86,7 @@
 @media screen and (max-width: 425px) {
   .app {
     justify-content: flex-start;
-    padding-top: 64px;
+    padding-top: 100px;
   }
 
   .mobile-control {

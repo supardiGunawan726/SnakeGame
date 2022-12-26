@@ -186,7 +186,7 @@ function App() {
       case "playing":
         return `Score: ${snakeBodies.length}`;
       default:
-        return "Game over. Click arrow keys to play again";
+        return `Score: ${snakeBodies.length}\nGame over. Click arrow keys to play again`;
     }
   }, [playState, snakeBodies.length]);
 
